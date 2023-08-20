@@ -5,7 +5,7 @@ import dotenv from "dotenv";
 
 dotenv.config();
 
-app.use("/",(req,res) =>{
+app.use("/home",(req,res) =>{
     res.send("<h1>welcome to the world</h1>")
 })
 
